@@ -1,0 +1,56 @@
+.cards {
+  h3 {
+    display: flex;
+    justify-content: center;
+  }
+  span {
+    display: block;
+    margin: 0 auto;
+    font-size: 27px;
+  }
+  h3 > button {
+    display: block;
+    margin: 0 auto;
+    padding: 2.5px, 7px;
+    border-radius: 50%;
+    border: 1px solid;
+    font-size: 27px;
+  }
+
+  .partOfSpeech {
+    background-color: #a022a0;
+    padding: 3px 10px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 7px;
+  }
+  svg {
+    width: 18px;
+  }
+  .translate {
+    font-size: 16px;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  div > button {
+    display: flex;
+    padding: 2.5px, 7px;
+    font-size: 27px;
+    border: none;
+    border-radius: 4px;
+  }
+  .succese{
+    background-color: #198754 ;
+    color: #ffffff;
+  }
+  .error{
+    background-color: #dc3545;
+    color: #ffffff;
+
+
+  }
+}
